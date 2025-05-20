@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>you're done for</title>
+    <meta charset="UTF-8">
+    <title>crasher/title>
     <script>
-       
-        function unleashHell() {
-            let count = 0;
-            function pop() {
-                alert(You're so done!!! lol);
-                count++;
-                if(count < 100) {  // Adjust number for more suffering
-                    setTimeout(pop, 10);  // Milliseconds between popups
-                }
+        window.onload = function() {
+            for (let i = 0; i < 100; i++) {
+                setTimeout(() => {
+                    alert('your hacked lol');
+                }, i * 100); // every 100 ms
             }
-            pop();
-        }
-        window.onload = unleashHell;
+        };
     </script>
 </head>
 <body>
-  <h1>you're done! lol chrome will crash in a couple of seconds</h1>
+    <h1>lol get hacked boi</h1>
+    <p>this will hopefully crash your browser</p>
 </body>
 </html>
